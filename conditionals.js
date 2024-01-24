@@ -17,3 +17,20 @@ else if (food == "cold") {
 else {
     console.log('Just right')
 }
+
+//Conditional statement Switch statement
+var place = 'first';
+
+switch(place) {
+    case 'first':
+        console.log('Gold');
+        break;
+    case 'second':
+        console.log('Silver');
+        break;
+    case 'third':
+        console.log('Bronze');
+        break;
+    default:
+        console.log('No Medal');
+}
