@@ -66,3 +66,46 @@ switch(light){
         console.log("The light doesn't match");
         break;
 }
+
+//Practice conditional if else statement
+var age = 10;
+if (age >= 65){
+    console.log("You get your income from your pension");    
+}
+else if(age >= 18 && age < 65){
+    console.log("Each month you get salary");
+}
+else if(age < 18){
+    console.log("You get an allowance");
+}
+else{
+    console.log("The value of the age variable is not numerical");
+}
+
+//Practice Conditional Switch statements
+var day = 'Sunday';
+switch(day){
+    case 'Monday':
+        console.log("Learn HTML");
+        break;
+    case 'Tuesday':
+        console.log("Learn CSS");
+        break;
+    case 'Wednesday':
+        console.log("Learn JS");
+        break;
+    case 'Thursday':
+        console.log("Learn Python");
+        break;
+    case 'Friday':
+        console.log("Revise each one of programming languages")
+        break;
+    case 'Saturday':
+        console.log("Meet Friends");
+        break;
+    case 'Sunday':
+        console.log("Plan for the next week");
+        break;
+    defaut:
+    console.log("There is no such day");
+}
