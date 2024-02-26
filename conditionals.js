@@ -34,3 +34,35 @@ switch(place) {
     default:
         console.log('No Medal');
 }
+
+//conditional statements ***If else
+var light = 'green';
+if (light == 'green'){
+    console.log("Go");
+}
+else if(light== 'yellow'){
+    console.log("Ready");
+}
+else if(light== 'red'){
+    console.log("stop");
+}
+else{
+    console.log("The light doesn't match")
+}
+
+//conditional statements ***Switch
+var light = 'yellow';
+switch(light){
+    case 'green':
+        console.log("Go");
+        break;
+    case 'yellow':
+        console.log("Ready");
+        break;
+    case 'red':
+        console.log("Stop");
+        break;
+    default :
+        console.log("The light doesn't match");
+        break;
+}
